@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Installing required applications..."
-sudo apk add sway fuzzel micro i3blocks fastfetch
+doas apk add sway fuzzel micro i3blocks fastfetch
 
 echo "Creating config directories..."
 mkdir -p $HOME/.config/fastfetch $HOME/.config/sway $HOME/.config/fuzzel $HOME/.config/i3blocks $HOME/.config/micro
