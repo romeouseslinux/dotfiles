@@ -1,0 +1,20 @@
+# High-Visibility Pure Transparent Theme
+color-link default "bold brightwhite,default"
+color-link comment "brightyellow,default"
+color-link statement "bold brightmagenta,default"
+color-link identifier "bold brightcyan,default"
+color-link identifier.function "bold brightblue,default"
+color-link constant "brightyellow,default"
+color-link constant.string "bold brightgreen,default"
+color-link symbol "bold brightred,default"
+color-link type "bold brightyellow,default"
+
+# Gutter & Line Numbers
+color-link line-number "brightblack,default"
+color-link current-line-number "bold brightwhite,default"
+color-link cursor-line "default,default"
+
+# Status Line
+color-link statusline "black,brightwhite"
+color-link error "bold brightred,default"
+color-link todo "bold brightyellow,default"
